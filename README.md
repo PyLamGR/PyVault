@@ -28,10 +28,9 @@ The user only needs nothing to run the generator program except for python langu
 
 ## License
 
-This project WILL be licensed under the MIT license. It is a known issue that this project needs to be licensed and we are working on adding one to it. Thank you for your patience!
+[MIT license](https://choosealicense.com/licenses/mit/ "learn about this license")
 
 ### Known Issues
 
 - project needs to be run without python installed
-- MIT license needs to be added
 - gui could look better
