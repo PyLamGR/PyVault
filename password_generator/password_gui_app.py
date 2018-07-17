@@ -26,8 +26,12 @@ def password_gui():
         file.write(password_variable + "\n")
         file.close()
 
-        password_label = Label(root, text=password_variable)
-        password_label.grid(row=7, column=1)
+        # password_label = Label(root, text=password_variable)
+        # password_label.grid(row=7, column=1)
+
+        text = Text(root, height=2, width=20)
+        text.insert(INSERT, str(password_variable))
+        text.grid(row=7, column=1)
 
         return
 
@@ -38,8 +42,12 @@ def password_gui():
         file = open('archive.txt', 'r')
         text_var = file.read()
 
-        text_label = Label(window1, text=text_var)
-        text_label.grid(row=0)
+        # text_label = Label(window1, text=text_var)
+        # text_label.grid(row=0)
+
+        text = Text(window1, width=20)
+        text.insert(INSERT, str(text_var))
+        text.grid(row=0)
 
         window1.mainloop()
         file.close()
